@@ -168,11 +168,11 @@ export default function App() {
           </Button>
           <Row
             style={{
-              padding: screens.md ? '5rem 5rem' : '2rem 2rem',
               textAlign: 'center',
+              marginTop: '2rem',
             }}
             wrap={screens.md ? false : true}
-            gutter={[30, 50]}
+            gutter={[0, 50]}
             align={'top'}
             justify={'center'}
           >
@@ -180,6 +180,7 @@ export default function App() {
               flex={8}
               style={{
                 maxWidth: '300px',
+                padding: '20px',
               }}
             >
               <img height={120} src={Order} />
@@ -191,6 +192,7 @@ export default function App() {
             <Col
               style={{
                 maxWidth: '300px',
+                padding: '20px',
               }}
               flex={8}
             >
@@ -201,6 +203,7 @@ export default function App() {
             <Col
               style={{
                 maxWidth: '300px',
+                padding: '20px',
               }}
               flex={8}
             >
